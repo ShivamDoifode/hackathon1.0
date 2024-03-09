@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+img-d.block.w-100 {
+  width: 200px;
+  height: 100px;
+}
+
+a.navbar-brand {
+  color: aqua;
+}
+
+marquee.text-white {
+  color: rgb(142, 99, 46);
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+span.carousel-control-prev-icon {
+  color: black;
+}
+
+.rows {
+  border: 1px solid rgb(209, 209, 209);
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 10px rgb(213, 213, 213);
+  transition: all 0.4s ease;
+  border-radius: 1%;
+  align-items: center;
+}
+div.all {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+
+div.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bapall {
+  height: 100px;
+  width: 100px;
+}
+
+img.img-fluid.rounded-start {
+  height: 300px;
+  width: 400px;
+}
+
+div.display {
+  background-color: brown;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.allicons {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: brown;
+}
+
+div.calculator {
+  height: 100px;
+  width: 100%;
+}
+
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.calculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calculator label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.calculator input[type="number"],
+.calculator select {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator #result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
